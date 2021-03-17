@@ -9,7 +9,6 @@ RUN yum -y install mysql
 
 RUN yum -y install epel-release && \
     yum -y install python3-pip && \
-#   yum -y install pip3  && \
     yum -y install sshpass && \
     yum -y install vim-minimal.x86_64 && \
     yum -y install pip3 install awscli
