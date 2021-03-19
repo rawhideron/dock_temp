@@ -2,7 +2,7 @@ FROM centos:7
 
 RUN yum -y install openssh-server
 
-
+# comment line
 RUN ssh-keygen -A
 
 RUN yum -y install mysql
